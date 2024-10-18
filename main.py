@@ -1,4 +1,4 @@
-from dummy.corpus_counter import token_count
+from corpus_counter import token_count
 
 def report_count(token):
     test = "subscriber"
