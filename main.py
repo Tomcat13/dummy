@@ -1,7 +1,7 @@
-from corpus_counter import token_count
+from dummy.corpus_counter import token_count
 
 def report_count(token):
     test = "subscriber"
-    count = token_count()
+    count = token_count(test, test)
     #print(f'The term {token} shows up in the corpus {count} times.')
     print(count)
