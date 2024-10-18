@@ -1,4 +1,5 @@
-def token_count(token):
+def token_count():
+    token = "subscriber"
     # reads corpus.txt
     with open('corpus.txt', 'r') as file:
         corpus = file.read()
